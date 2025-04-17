@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Hunt Game</title>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #111;}
+        canvas { border: 2px solid white; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let player = { x: 300, y: 200, size: 20, color: '#0f0' };
+        let pixel = { x: Math.random() * canvas.width, y: Math.random() * canvas.height, size: 10, color: '#ff0' };
+        let obstacles = [];
+        let speed = 2;
+        let score = 0;
+        let gameOver = false;
+
+        document.addEventListener('keydown', movePlayer);
+
+        function movePlayer(e) {
+            if (e.key === 'ArrowUp' && player.y > 0) player.y -= 10;
+            if (e.key === 'ArrowDown' && player.y < canvas.height - player.size) player.y += 10;
+            if (e.key === 'ArrowLeft' && player.x > 0) player.x -= 10;
+            if (e.key === 'ArrowRight' && player.x < canvas.width - player.size) player.x += 10;
+        }
+
+        function spawnObstacle() {
+            const obstacle = {
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                size: 20,
+                color: '#f00'
+            };
+            obstacles.push(obstacle);
+        }
+
+        function draw() {
+            if (gameOver) {
+                ctx.fillStyle = 'white';
+                ctx.font = '30px Arial';
+                ctx.fillText('Game Over', canvas.width / 2 - 80, canvas.height / 2);
+                ctx.fillText('Score: ' + score, canvas.width / 2 - 80, canvas.height / 2 + 40);
+                return;
+            }
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw player
+            ctx.fillStyle = player.color;
+            ctx.fillRect(player.x, player.y, player.size, player.size);
+
+            // Draw pixel
+            ctx.fillStyle = pixel.color;
+            ctx.fillRect(pixel.x, pixel.y, pixel.size, pixel.size);
+
+            // Draw obstacles
+            obstacles.forEach(obs => {
+                ctx.fillStyle = obs.color;
+                ctx.fillRect(obs.x, obs.y, obs.size, obs.size);
+            });
+
+            // Detect pixel collision
+            if (player.x < pixel.x + pixel.size && player.x + player.size > pixel.x &&
+                player.y < pixel.y + pixel.size && player.y + player.size > pixel.y) {
+                score++;
+                pixel.x = Math.random() * canvas.width;
+                pixel.y = Math.random() * canvas.height;
+                if (score % 5 === 0) speed++; // Increase speed every 5 points
+            }
+
+            // Detect obstacle collision
+            for (let obs of obstacles) {
+                if (player.x < obs.x + obs.size && player.x + player.size > obs.x &&
+                    player.y < obs.y + obs.size && player.y + player.size > obs.y) {
+                    gameOver = true;
+                }
+            }
+
+            // Add obstacles randomly
+            if (Math.random() < 0.02) {
+                spawnObstacle();
+            }
+
+            // Move obstacles
+            obstacles.forEach(obs => {
+                obs.x += speed;
+                if (obs.x > canvas.width) {
+                    obs.x = 0;
+                    obs.y = Math.random() * canvas.height;
+                }
+            });
+
+            // Continue the game loop
+            requestAnimationFrame(draw);
+        }
+
+        draw();
+    </script>
+</body>
+</html>
