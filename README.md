@@ -6,6 +6,5 @@
 ### 🕹️ Play Pixel Hunt Game!
 
 Check out my interactive **Pixel Hunt Game**:  
-[Play the Game](https://basedonsearch-dindayal.github.io/Basedonsearch-Dindayal/) 
-enjoy!!
+[Play the Game](https://basedonsearch-dindayal.github.io/Basedonsearch-Dindayal/)   enjoy!!
 
