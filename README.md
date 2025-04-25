@@ -36,7 +36,7 @@
 
 | 🚧 Project | ✨ Description | 🧰 Tech Stack |
 |-----------|----------------|---------------|
-| [Airbnb Replica]([https://github.com/Basedonsearch-Dindayal/airbnb-replica](https://github.com/Basedonsearch-Dindayal/Airbnb-Clone-_A_Full_Stack_Rental_Platform)) | Full-stack clone of Airbnb with stunning UI | React, Tailwind, Firebase |
+| [Airbnb Replica](https://github.com/Basedonsearch-Dindayal/Airbnb-Clone-_A_Full_Stack_Rental_Platform) | Full-stack clone of Airbnb with stunning UI | React, Tailwind, Firebase |
 | [Indigo AI Career Chatbot](https://github.com/Basedonsearch-Dindayal/indigo-ai) | Career guidance bot with Gemini API integration | React, OpenAI/Gemini, Tailwind |
 | [Valentine's Day VIT Site](https://github.com/Basedonsearch-Dindayal/valentine-vtu) | Fun matching site for students (yes, for real!) | HTML, JS, PHP |
 
