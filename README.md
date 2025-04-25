@@ -78,5 +78,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=timeGradient&text=Below%20are%20some%20of%20my%20top%20projects&textBg=false&fontSize=30&section=footer&fontAlignY=80&animation=fadeIn"/>
 </p>
