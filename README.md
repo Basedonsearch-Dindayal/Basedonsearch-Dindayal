@@ -1,4 +1,6 @@
-<!-- README.md for Basedonsearch-Dindayal -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=blur&height=300&color=timeGradient&text=Namaste&textBg=false&fontSize=60&section=header"/>
+</p>
 
 <h1 align="center">👋 Hey there! I'm Dindayal</h1>
 
