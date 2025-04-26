@@ -2,7 +2,11 @@
   <img src="https://capsule-render.vercel.app/api?type=blur&height=300&color=timeGradient&text=Namaste&textBg=false&fontSize=60&section=header"/>
 </p>
 
-<h1 align="center">👋 Hey there! I'm Dindayal</h1>
+<h1 align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&color=36BCF7FF&center=true&vCenter=true&width=800&height=50&lines=👋Hey+There!+Welcome+To+Dindayal's+Profile!+🌟" alt="Welcome Banner" />
+
+</h1>
 
 <p align="center">
   🎓 BTech Software Engineering @ VIT Bhopal <br>
@@ -47,8 +51,8 @@
 ## 📈 GitHub Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Basedonsearch-Dindayal&show_icons=true&theme=radical" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Basedonsearch-Dindayal&theme=tokyonight" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Basedonsearch-Dindayal&show_icons=true&theme=ambient_gradient&card_height=205" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Basedonsearch-Dindayal&theme=cyber-streakglow&card_height=207" width="48%"/>
 </p>
 
 <p align="center">
