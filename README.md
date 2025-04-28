@@ -63,9 +63,9 @@
 
 ## 💌 Let's Connect
 
-- ✉️ Email: dindayalsoftwaredev@gmail.com *(or your actual email)*  
-- 💼 LinkedIn: [linkedin.com/in/Basedonsearch-Dindayal](https://linkedin.com/in/yourusername) *(replace this if needed)*  
-- 🌐 Portfolio: [basedonsearch.dev](https://yourwebsite.com) *(coming soon? I can help you build one)*  
+- ✉️ Email: dindayalsinha301@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/Basedonsearch-Dindayal](https://linkedin.com/in/yourusername) 
+- 🌐 Portfolio: [basedonsearch.dev](https://yourwebsite.com)
 
 ---
 
