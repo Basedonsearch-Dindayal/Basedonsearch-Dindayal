@@ -16,7 +16,7 @@
 
 ---
 
-### 🧠 About Me
+### 🧠 About Me:
 
 - 💡 I love solving real-world problems with clean code and creative UI
 - 🛠️ I build with: `Java`, `JavaScript`, `React`, `TailwindCSS`, and `Firebase`
