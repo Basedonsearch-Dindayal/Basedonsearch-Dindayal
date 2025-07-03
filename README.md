@@ -52,7 +52,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Basedonsearch-Dindayal&show_icons=true&theme=ambient_gradient&card_height=205" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Basedonsearch-Dindayal&theme=cyber-streakglow&card_height=207" width="48%"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=Basedonsearch-Dindayal&theme=ambient-gradient&hide_border=true&card_height=207" width="48%"/>
 </p>
 
 <p align="center">
